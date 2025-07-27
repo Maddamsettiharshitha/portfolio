@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshitha Maddamsetti | Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #1e88e5;
+      --accent-color: #6a1b9a;
+      --bg-light: #f9f9f9;
+      --text-dark: #333;
+      --text-light: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: url("b2.jpg") center/cover no-repeat;
+      min-height: 40vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: black;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      color: var(--accent-color);
+      margin-bottom: 20px;
+      border-left: 5px solid var(--accent-color);
+      padding-left: 15px;
+    }
+
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-container img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .about-text h2 {
+      font-size: 1.6rem;
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: var(--primary-color);
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-container img {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>I'm Harshitha Maddamsetti</h1>
+  </header>
+
+  <!-- About Me Section -->
+  <section>
+    <div class="section-title">About Me</div>
+    <div class="about-container">
+      <img src="Image.jpg" alt="Harshitha's profile photo">
+      <div class="about-text">
+        <h2>Frontend Developer</h2>
+        <p>
+          I'm a passionate web developer with experience creating responsive and user-friendly interfaces.
+          I’ve built over 15 websites using HTML, CSS, and JavaScript — focusing on modern design principles and accessibility.
+          I love turning creative ideas into functional, clean websites.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section>
+    <div class="section-title">Courses & Certifications</div>
+    <ul>
+      <li>HTML, CSS & JavaScript Web Development</li>
+      <li>Python Programming Fundamentals - Part 1 & 2 (Infosys Springboard)</li>
+      <li>GitHub for Beginners (Great Learning)</li>
+      <li>Time Complexities & JavaScript (CodeChef)</li>
+      <li>Multiple HTML-based mini projects and UI implementations</li>
+    </ul>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section>
+    <div class="section-title">Contact Info</div>
+    <ul>
+      <li><strong>Education:</strong> B.Tech 2nd Year, CSE</li>
+      <li><strong>College:</strong> Sasi Institute of Technology and Engineering, Tadepalligudem</li>
+      <li><strong>Email:</strong> harshitha.maddasmsetti@sasi.ac.in</li>
+      <li><strong>Address:</strong> Relangi-534225, West Godavari, Andhra Pradesh, India</li>
+      <li><strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/harshitha-maddamsetti-b66698280/" target="_blank">
+          linkedin.com/in/harshitha-maddamsetti
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Harshitha Maddamsetti • Portfolio Website
+  </footer>
+
+</body>
+</html>
